@@ -2,6 +2,8 @@
 
 Repository hosting the code for Advent of Code 2020.  
   
+![Alt Text](https://media4.giphy.com/media/UTFiHeDL8cOSA/giphy.gif)
+  
 **Hard Mode**:fire:   
 Completed without importing any built-in or third party module.  
 
