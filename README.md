@@ -2,8 +2,14 @@
 
 Repository hosting the code for Advent of Code 2020.  
   
-**Hard Mode**   Complete each task without importing any built-in or third party module.  
+**Hard Mode**:fire:   
+Completed without importing any built-in or third party module.  
+
+* Day 1
+* Day 2
   
-**Medium Mode** Complete each task importing only built-in modules.  
+**Medium Mode**:warning:  
+Completed importing only built-in modules.  
   
-**Easy Mode**   Freestyle.  
+**Easy Mode**:four_leaf_clover:   
+Freestyle.  
