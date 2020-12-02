@@ -1,6 +1,6 @@
 # Advent of Code 2020
 
-Repository hosting the code for Advent of Code 2020.  
+Repository hosting the code for [Advent of Code 2020](https://adventofcode.com/2020/about).  
   
 ![Alt Text](https://media4.giphy.com/media/UTFiHeDL8cOSA/giphy.gif)
 
