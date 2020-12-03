@@ -1,4 +1,4 @@
-# Advent of Code 2020
+# :christmas_tree: Advent of Code 2020 :christmas_tree:
 
 Repository hosting the code for [Advent of Code 2020](https://adventofcode.com/2020/about).  
   
