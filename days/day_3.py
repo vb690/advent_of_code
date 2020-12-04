@@ -1,7 +1,7 @@
 class Biome:
     """Class implementing a biome.
     """
-    def __init__(self, map_location, ):
+    def __init__(self, map_location):
         """Initialize the class with a mapped biome. A mapped biome is a
             2D list.
         """
