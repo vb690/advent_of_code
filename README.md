@@ -7,7 +7,7 @@ Repository hosting the code for [Advent of Code 2020](https://adventofcode.com/2
 ## Challenge Level
 
 **Hard Mode**:fire:   
-Completed without importing any built-in or third party module.  
+Completed without importing any built-in or third party modules.  
 
 * Day 1
 * Day 2
