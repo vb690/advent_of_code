@@ -14,6 +14,7 @@ Completed without importing any built-in or third party modules.
 * Day 3
 * Day 4
 * Day 5
+* Day 6
   
 **Medium Mode**:warning:  
 Completed importing only built-in modules.  
