@@ -4,20 +4,29 @@ def read_instructions(file_location):
     return open(file_location, 'r').read().split('\n')
 
 
-def get_instructions(line):
+def split_instructions(instructions):
     """Split instruction line
     """
-    splitted_instructions = line.split(' ')
+    instruction_types = []
+    instruction_signs = []
+    instruction_values = []
 
-    instruction_type = splitted_instructions[0]
-    instuction_sign = splitted_instructions[1][0]
-    instruction_value = int(splitted_instructions[1][1:])
+    for line in instructions:
 
-    return instruction_type, instuction_sign, instruction_value
+        if line == '':
+            continue
+
+        splitted_instructions = line.split(' ')
+
+        instruction_types.append(splitted_instructions[0])
+        instruction_signs.append(splitted_instructions[1][0])
+        instruction_values.append(int(splitted_instructions[1][1:]))
+
+    return instruction_types, instruction_signs, instruction_values
 
 
-def oparation(instuction_sign, value_1, value_2):
-    """
+def operation(instuction_sign, value_1, value_2):
+    """Perform operation between two values
     """
     if instuction_sign == '+':
         return value_1 + value_2
@@ -30,30 +39,35 @@ if __name__ == '__main__':
     accumulator = 0
     current_index = 0
     visited_indices = []
-    while current_index != len(instructions):
-
-        line = instructions[current_index]
-        instruction_type, instuction_sign, \
-            instruction_value = get_instructions(line)
+    instruction_types, instruction_signs, \
+        instruction_values = split_instructions(instructions)
+    while current_index < len(instruction_types):
 
         visited_indices.append(current_index)
 
+        instruction_type = instruction_types[current_index]
+        instuction_sign = instruction_signs[current_index]
+        instruction_value = instruction_values[current_index]
+
         if instruction_type == 'acc':
-            accumulator = oparation(
+            accumulator = operation(
                 instuction_sign,
                 accumulator,
                 instruction_value
             )
             current_index += 1
+
         elif instruction_type == 'jmp':
-            current_index = oparation(
+            current_index = operation(
                 instuction_sign,
                 current_index,
                 instruction_value
             )
+            if current_index in visited_indices:
+                print(f'Endless loop reached at {accumulator}')
+                break
         else:
             current_index += 1
-
-        if current_index in visited_indices:
-            print(accumulator)
-            break
+            if current_index in visited_indices:
+                print(f'Endless loop reached at {accumulator}')
+                break
