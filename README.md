@@ -4,10 +4,10 @@ Repository hosting the code for [Advent of Code 2020](https://adventofcode.com/2
   
 ![Alt Text](https://media4.giphy.com/media/UTFiHeDL8cOSA/giphy.gif)
 
-## Challenge Level
+## Results
 
-**Hard Mode**:fire:   
-Completed without importing any built-in or third party modules.  
+:star:**Completed**:star:   
+A day is considered completed when both puzzles have been solved within the day and without importing any built-in or third party modules.  
 
 * Day 1
 * Day 2
@@ -15,9 +15,12 @@ Completed without importing any built-in or third party modules.
 * Day 4
 * Day 5
 * Day 6
-  
-**Medium Mode**:warning:  
-Completed importing only built-in modules.  
-  
-**Easy Mode**:four_leaf_clover:   
-Freestyle.  
+
+:eyes:**Borderline**:eyes:  
+A day is considered borderline if only one puzzle has been solved within the day and without importing any built-in or third party modules. Borderline days need to be completed by the end of the event or they will be considered failed.
+
+* Day 7 (second star is missing)
+* Day 8 (second star is missing)
+
+:skull:**Failed**:skull:  
+A day is considered failed when neither of the puzzles have been solved within the day or have been solved importing built-in or third party modules. Borderine days can become failed days. 
