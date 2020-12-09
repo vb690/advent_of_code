@@ -15,6 +15,7 @@ A day is considered completed when both puzzles have been solved within the day 
 * Day 4
 * Day 5
 * Day 6
+* Day 9
 
 :eyes:**Borderline**:eyes:  
 A day is considered borderline if only one puzzle has been solved within the day and without importing any built-in or third party modules. Borderline days need to be completed by the end of the event or they will be considered failed.
