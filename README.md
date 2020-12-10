@@ -1,6 +1,6 @@
 # :christmas_tree: Advent of Code 2020 :christmas_tree:
 
-Repository hosting the code for [Advent of Code 2020](https://adventofcode.com/2020/about).  
+Repository hosting the solutions for [Advent of Code 2020](https://adventofcode.com/2020/about).  
   
 ![Alt Text](https://media4.giphy.com/media/UTFiHeDL8cOSA/giphy.gif)
 
