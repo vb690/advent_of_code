@@ -22,6 +22,9 @@ A day is considered borderline if only one puzzle has been solved within the day
 
 * Day 7 (second star is missing)
 * Day 8 (second star is missing)
+* Day 10 (second star is missing)
 
 :skull:**Failed**:skull:  
 A day is considered failed when neither of the puzzles have been solved within the day or have been solved importing built-in or third party modules. Borderine days can become failed days. 
+
+* Day 11 - cause of failure: out of time.
