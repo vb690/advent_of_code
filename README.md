@@ -36,4 +36,4 @@ A day is considered failed when neither of the puzzles have been solved within t
 
 
 :fire:**Burnout**:fire:  
-I burnedout on Day 12 due to impending more important duties.
+On day 12 I burned out and had to deal more important duties.
