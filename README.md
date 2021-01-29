@@ -2,7 +2,11 @@
 
 Repository hosting the solutions for [Advent of Code 2020](https://adventofcode.com/2020/about).  
   
-![Alt Text](https://media4.giphy.com/media/UTFiHeDL8cOSA/giphy.gif)
+  
+ <p align="center">
+  <img src="https://media4.giphy.com/media/UTFiHeDL8cOSA/giphy.gif" width="600" />
+</p>  
+
 
 ## Results
 
