@@ -6,3 +6,4 @@ Here we list the editions covered in this repository (expect very sparse and irr
 
 1. 2020 - Failed to complete
 2. 2021 - Skipped
+3. 2022 - Skipped
